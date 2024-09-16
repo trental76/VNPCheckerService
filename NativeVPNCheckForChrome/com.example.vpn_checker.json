@@ -1,0 +1,7 @@
+{
+  "allowed_origins": [ "chrome-extension://mpcaiboeecdlabdehkghgimnhfgppbkb/" ],
+  "description": "Check VPN connection before open url",
+  "name": "com.example.vpn_checker",
+  "path": "C:\\VPNChecker\\ChromeNativeApp\\NativeVPNCheckForChrome.exe",
+  "type": "stdio"
+}

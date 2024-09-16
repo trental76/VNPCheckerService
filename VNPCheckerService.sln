@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNPCheckerService", "VNPCheckerService\VNPCheckerService.csproj", "{7D86F006-A897-4923-ACD4-A38465D0D5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VNPCheckerService", "VNPCheckerService\VNPCheckerService.csproj", "{7D86F006-A897-4923-ACD4-A38465D0D5F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChromePlugin", "ChromePlugin", "{21A3E2CD-B99E-43EA-88E3-A6DEEFF412D5}"
+	ProjectSection(SolutionItems) = preProject
+		ChromePlugin\background.js = ChromePlugin\background.js
+		ChromePlugin\manifest.json = ChromePlugin\manifest.json
+		ChromePlugin\popup.html = ChromePlugin\popup.html
+		ChromePlugin\popup.js = ChromePlugin\popup.js
+		ChromePlugin\rules.json = ChromePlugin\rules.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeVPNCheckForChrome", "NativeVPNCheckForChrome\NativeVPNCheckForChrome.csproj", "{EB9ED89F-4431-4CEC-B6B2-E8F1B2CE5D47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +22,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D86F006-A897-4923-ACD4-A38465D0D5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9ED89F-4431-4CEC-B6B2-E8F1B2CE5D47}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9ED89F-4431-4CEC-B6B2-E8F1B2CE5D47}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{EB9ED89F-4431-4CEC-B6B2-E8F1B2CE5D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9ED89F-4431-4CEC-B6B2-E8F1B2CE5D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
